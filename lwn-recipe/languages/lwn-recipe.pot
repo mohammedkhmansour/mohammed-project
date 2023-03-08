@@ -1,0 +1,335 @@
+# Copyright (C) 2023 Nawras Ali
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: LWN Recipe 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lwn-recipe\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-02-20T17:10:47+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: lwn-recipe\n"
+
+#. Plugin Name of the plugin
+#: includes/register-recipe-type.php:9
+msgid "LWN Recipe"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://learnwithnaw.com/learning-path/3"
+msgstr ""
+
+#. Description of the plugin
+msgid "Manage your recipes easily"
+msgstr ""
+
+#. Author of the plugin
+msgid "Nawras Ali"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://learnwithnaw.com"
+msgstr ""
+
+#: admin/admin-config.php:13
+msgid "Settings"
+msgstr ""
+
+#: admin/admin-ui.php:7
+msgid "LWN Recipe Plugin"
+msgstr ""
+
+#: admin/admin-ui.php:8
+#: includes/register-recipe-type.php:8
+msgid "LWN Recipes"
+msgstr ""
+
+#: admin/admin-ui.php:24
+msgid "Lwn Recipe Plugin"
+msgstr ""
+
+#: admin/admin-ui.php:27
+msgid "Manage your recipes smoothly!"
+msgstr ""
+
+#: admin/admin-ui.php:35
+msgid "How to use?"
+msgstr ""
+
+#: admin/admin-ui.php:38
+msgid "Go to the bottom of admin sidebar, choose \"Lwn Recipe\", and enjoy adding your recipes!"
+msgstr ""
+
+#: admin/admin-ui.php:48
+msgid "How to check all recipes in the frontend?"
+msgstr ""
+
+#: admin/admin-ui.php:51
+msgid "Go to:"
+msgstr ""
+
+#: admin/admin-ui.php:58
+msgid "All Recipes URL"
+msgstr ""
+
+#: admin/admin-ui.php:68
+msgid "Customized Sidebar"
+msgstr ""
+
+#: admin/admin-ui.php:71
+msgid "You can add your customized Sidebar to Recipe pages. Check it in the widgets section!"
+msgstr ""
+
+#: admin/admin-ui.php:81
+msgid "Customized Widgets"
+msgstr ""
+
+#: admin/admin-ui.php:84
+msgid "There are two recipe widgets; the first is \"Lwn Latest Recipes\", and the second one is \"LWN Recipe Types\". You can check them in the widgets section."
+msgstr ""
+
+#: admin/admin-ui.php:94
+msgid "Useful Links"
+msgstr ""
+
+#: admin/admin-ui.php:97
+#: admin/admin-ui.php:207
+msgid "If interested, you can learn more about plugin development, and how to make similar plugins here."
+msgstr ""
+
+#: admin/admin-ui.php:106
+msgid "Wordpress Development Learning Path"
+msgstr ""
+
+#: admin/admin-ui.php:115
+#: admin/admin-ui.php:216
+msgid "Check Youtube Videos"
+msgstr ""
+
+#: admin/admin-ui.php:124
+#: admin/admin-ui.php:219
+msgid "Code Repo."
+msgstr ""
+
+#: admin/admin-ui.php:139
+msgid "What is this plugin?"
+msgstr ""
+
+#: admin/admin-ui.php:144
+msgid "What is the purpose?"
+msgstr ""
+
+#: admin/admin-ui.php:149
+msgid "Documentation"
+msgstr ""
+
+#: admin/admin-ui.php:156
+msgid "Ask for help at: help@LearnWithNaw.net"
+msgstr ""
+
+#: admin/admin-ui.php:166
+msgid "LWN Recipes helps users to manage their recipes, and display them in custom templates."
+msgstr ""
+
+#: admin/admin-ui.php:172
+msgid "LWN Recipes also allows users to add custom recipes widgets and sidebar to their website."
+msgstr ""
+
+#: admin/admin-ui.php:190
+msgid "LWN Recipes was created with the intention of teaching developers how to make a professional, yet simple WordPress plugin."
+msgstr ""
+
+#: admin/admin-ui.php:213
+msgid "WordPress Development Learning Path"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:10
+msgid "Recipe Ingredients"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:18
+msgid "Recipe Steps"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:26
+msgid "Recipe Info"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:61
+msgid "Breakfast"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:62
+msgid "Lunch"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:63
+msgid "Dinner"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:70
+msgid "Short Description"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:82
+msgid "Prep Time (in Minutes)"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:94
+msgid "Cook Time (in Minutes)"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:106
+msgid "Total Time (in Minutes)"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:118
+#: templates/single-lwn_recipe.php:38
+msgid "Servings"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:130
+#: templates/single-lwn_recipe.php:108
+msgid "Vegan?"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:142
+#: templates/single-lwn_recipe.php:95
+msgid "Meal"
+msgstr ""
+
+#: includes/register-recipe-metabox.php:161
+#: templates/single-lwn_recipe.php:163
+msgid "Notes"
+msgstr ""
+
+#: includes/register-recipe-taxonomy.php:9
+msgid "Recipe Type"
+msgstr ""
+
+#: includes/register-recipe-taxonomy.php:10
+msgid "Add New Recipe Type"
+msgstr ""
+
+#: includes/register-recipe-taxonomy.php:11
+msgid "New Recipe Type Name"
+msgstr ""
+
+#: includes/register-recipe-type.php:10
+msgid "Add New"
+msgstr ""
+
+#: includes/register-recipe-type.php:11
+msgid "Add New Recipe"
+msgstr ""
+
+#: includes/register-recipe-type.php:12
+msgid "Edit"
+msgstr ""
+
+#: includes/register-recipe-type.php:13
+msgid "Edit LWN Recipe"
+msgstr ""
+
+#: includes/register-recipe-type.php:14
+msgid "View"
+msgstr ""
+
+#: includes/register-recipe-type.php:15
+msgid "View LWN Recipe"
+msgstr ""
+
+#: includes/register-recipe-type.php:16
+msgid "Search LWN Recipes"
+msgstr ""
+
+#: includes/register-recipe-type.php:17
+msgid "No LWN Recipes Found"
+msgstr ""
+
+#: includes/register-recipe-type.php:18
+msgid "No LWN Recipes Found in Trash"
+msgstr ""
+
+#: includes/register-sidebar.php:8
+msgid "LWN Recipe Sidebar"
+msgstr ""
+
+#: includes/register-widgets.php:17
+msgid "Lists Lwn Recipe Types"
+msgstr ""
+
+#: includes/register-widgets.php:27
+#: includes/register-widgets.php:62
+msgid "Recipe Types"
+msgstr ""
+
+#: includes/register-widgets.php:72
+#: includes/register-widgets.php:182
+msgid "Widget Title"
+msgstr ""
+
+#: includes/register-widgets.php:84
+msgid "Hide Empty Types"
+msgstr ""
+
+#: includes/register-widgets.php:116
+msgid "Display Latest LWN Recipes"
+msgstr ""
+
+#: includes/register-widgets.php:126
+#: includes/register-widgets.php:170
+msgid "Recipes"
+msgstr ""
+
+#: includes/register-widgets.php:194
+msgid "Number of recipes"
+msgstr ""
+
+#: templates/archive-lwn_recipe.php:49
+#: templates/taxonomy-lwn_recipe_type.php:56
+msgid "Older Recipes"
+msgstr ""
+
+#: templates/archive-lwn_recipe.php:52
+#: templates/taxonomy-lwn_recipe_type.php:59
+msgid "Newer Recipes"
+msgstr ""
+
+#: templates/single-lwn_recipe.php:51
+msgid "Prep Time"
+msgstr ""
+
+#: templates/single-lwn_recipe.php:58
+#: templates/single-lwn_recipe.php:72
+#: templates/single-lwn_recipe.php:87
+msgid "Minutes"
+msgstr ""
+
+#: templates/single-lwn_recipe.php:65
+msgid "Cook Time"
+msgstr ""
+
+#: templates/single-lwn_recipe.php:80
+msgid "Total Time"
+msgstr ""
+
+#: templates/single-lwn_recipe.php:115
+msgid "Yes"
+msgstr ""
+
+#: templates/single-lwn_recipe.php:116
+msgid "No"
+msgstr ""
+
+#: templates/single-lwn_recipe.php:131
+msgid "Ingredients"
+msgstr ""
+
+#: templates/single-lwn_recipe.php:147
+msgid "Steps"
+msgstr ""

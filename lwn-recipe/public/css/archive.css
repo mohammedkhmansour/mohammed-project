@@ -1,0 +1,162 @@
+/* Recipe Archive Page Container */
+.lwn-recipe-container {
+  display: block;
+  max-width: 90%;
+  margin: 1rem auto;
+}
+@media only screen and (min-width: 767px) {
+  .lwn-recipe-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+}
+
+/* The Recipes Content - All recipes */
+.lwn-recipe-content {
+  max-width: 100%;
+}
+@media only screen and (min-width: 767px) {
+  .lwn-recipe-content {
+    max-width: 64%;
+    margin: 0 10px;
+  }
+}
+
+/* The Recipe Card */
+.lwn-recipe-card {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  background: #f4f4f4;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 767px) {
+  .lwn-recipe-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+}
+
+/* The Recipe Thumbnail */
+.lwn-recipe-thumbnail img {
+  display: inline-block;
+  max-width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 767px) {
+  .lwn-recipe-thumbnail {
+    flex: 2 0 10%;
+  }
+}
+
+/* The Recipe Content */
+.the-recipe-content {
+  padding: 1rem;
+  text-align: center;
+}
+@media only screen and (min-width: 767px) {
+  .the-recipe-content {
+    flex: 2 0 60%;
+    align-self: center;
+  }
+}
+
+/* Recipe Title */
+.lwn-recipe-title a {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.lwn-recipe-title a:hover {
+  text-decoration: underline;
+}
+
+/* Recipe Text */
+.lwn-recipe-text {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Widget links */
+.lwn-recipe-list {
+  background: #f4f4f4;
+  list-style: none;
+  margin: 0;
+}
+.lwn-recipe-item {
+  padding: 0.5rem 0.7rem;
+  border-bottom: 2px solid #fff;
+  transition: all 2s;
+}
+.lwn-recipe-item:hover {
+  background: lightgreen;
+  cursor: crosshair;
+}
+.lwn-recipe-link {
+  color: #333;
+}
+.lwn-recipe-link:hover .lwn-recipe-item {
+  background: #f4f4f4 !important;
+}
+
+/* sidebar */
+.lwn-recipe-sidebar {
+  padding: 1rem 0.5rem;
+  max-width: 100%;
+}
+@media only screen and (min-width: 767px) {
+  .lwn-recipe-content {
+    max-width: 64%;
+  }
+}
+.lwn-recipe-widget {
+  background: white;
+  border-radius: 10px;
+  text-shadow: 0px 10px 10px #ccc;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+.lwn-recipe-widget-title {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0.5rem 0.7rem;
+}
+.lwn-recipe-widget-title::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 2px;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, lightgreen, gray);
+  transition: all 2s;
+}
+.lwn-recipe-widget:hover .lwn-recipe-widget-title::after {
+  width: 80%;
+}
+
+/* Pagination code */
+.lwn-recipe-pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.lwn-recipe-pagination a {
+  display: inline-block;
+  background: green;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 0.8rem;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.lwn-recipe-pagination a:hover {
+  opacity: 0.8;
+}
